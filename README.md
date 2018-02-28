@@ -15,3 +15,9 @@ Fix permission denied
 Running Tomcat. User terminal, cd into /bin folder
 
 >./startup.sh
+
+
+## Maven Archetype to initial a project
+
+>mvn -DarchetypeGroupId=org.codehaus.mojo.archetypes -DarchetypeArtifactId=webapp-javaee7 -DarchetypeVersion=1.1 -DgroupId=com.servletapplicationdemo -DartifactId=servletapplicationdemo -Dversion=1.0 -Darchetype.interactive=false --batch-mode -Dpackage=com.servletapplicationdemo archetype:generate
+
