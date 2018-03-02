@@ -8,6 +8,9 @@ import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/*  URL to retrieve this class:
+    http://localhost:8080/servletapplicationsdemo/HelloWorld
+ */
 @WebServlet("/HelloWorld")
 public class HelloWorld extends GenericServlet {
     private static final Long serialVersionUID = 1L;
