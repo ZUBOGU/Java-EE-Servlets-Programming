@@ -18,14 +18,19 @@ Running Tomcat. User terminal, cd into /bin folder
 
 ### Deploy war file
 
+> cd servletapplicationsdemo
+
 > mvn clean install
 
 Copy servletapplicationsdemo.war file into Tomcat /webapps directory.
 
-Go to browser and view the page. Replace Servelet with the url path in Servelet class annotation.
+Go to browser and view the page.
 
-> http://localhost:8080/servletapplicationsdemo/Servelet
+> http://localhost:8080/servletapplicationsdemo
 
+Add the url path in Servelet class annotation to retrieve specific servlet class
+
+> http://localhost:8080/servletapplicationsdemo/HelloWorld
 
 ## Maven Archetype to initial a project
 
