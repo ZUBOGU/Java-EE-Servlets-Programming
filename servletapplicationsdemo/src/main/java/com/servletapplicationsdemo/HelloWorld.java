@@ -19,8 +19,8 @@ public class HelloWorld extends GenericServlet {
         super();
     }
 
-    public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        PrintWriter out = res.getWriter();
+    public void service(ServletRequest req, ServletResponse resp) throws ServletException, IOException {
+        PrintWriter out = resp.getWriter();
         out.println("Java EE Servlets Programming");
     }
 
