@@ -22,9 +22,10 @@ Running Tomcat. User terminal, cd into /bin folder
 
 Copy servletapplicationsdemo.war file into Tomcat /webapps directory.
 
-Go to brwoser and view the page
+Go to browser and view the page. Replace Servelet with the url path in Servelet class annotation.
 
-> http://localhost:8080/servletapplicationsdemo/HelloWorld
+> http://localhost:8080/servletapplicationsdemo/Servelet
+
 
 ## Maven Archetype to initial a project
 
