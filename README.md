@@ -16,6 +16,15 @@ Running Tomcat. User terminal, cd into /bin folder
 
 >./startup.sh
 
+### Deploy war file
+
+> mvn clean install
+
+Copy servletapplicationsdemo.war file into Tomcat /webapps directory.
+
+Go to brwoser and view the page
+
+> http://localhost:8080/servletapplicationsdemo/HelloWorld
 
 ## Maven Archetype to initial a project
 
